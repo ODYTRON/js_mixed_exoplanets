@@ -62,5 +62,21 @@ const birthdateLucky = (age1, age2) => {
     return luckynumber;
   };
   
+  // function to insert users and return their names
+const users = (user1, user2) => {
+    return `${user1} & ${user2}`
+  };
+  
+  
+  
+  
+  console.log("---------------------------------------------------------------------------------");
+  
+  
+  
+  
+  
+  // the result
+  console.log(`Dear ${users('ody','ody2')}, the hex color of your relationship is ${getFinalColor()}. The lucky number of your relationship is ${birthdateLucky(38,45)}. The exoplanet to chant your results (color and number), is ${randomExoplanet()}`);
   
   
