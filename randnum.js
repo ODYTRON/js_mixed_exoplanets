@@ -48,4 +48,19 @@ const getFinalColor = () => {
     }
     return apotelesma1;
   };
+
+  // function to get a random exoplanet
+const randomExoplanet = () => {
+    return exoplanets[Math.floor(Math.random() * exoplanets.length)];
+  };
+
+  // function to compare the two inserted ages and return the lucky number
+const birthdateLucky = (age1, age2) => {
+    const finalage = age1 + age2;
+    const randomnumber = Math.floor(Math.random() * 1000);
+    const luckynumber = Math.floor(randomnumber / finalage);
+    return luckynumber;
+  };
+  
+  
   
