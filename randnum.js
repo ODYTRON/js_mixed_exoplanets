@@ -31,3 +31,21 @@ const getColorTwo = () => {
   return SecondColor;
 };
 
+// function to compare two hex colors and calculate the final result
+const getFinalColor = () => {
+    var apotelesma1 = getColorOne();
+    var apotelesma2 = getColorTwo();
+  // check point to compare the two hex nums, uncomment the next two lines
+  // console.log(apotelesma1);
+  // console.log(apotelesma2);
+    
+    for (x=1; x<apotelesma1.length; x++) {
+     
+        if (apotelesma1[x] != apotelesma2[x]) {
+          apotelesma1[x] = randomHex();
+        }
+    
+    }
+    return apotelesma1;
+  };
+  
