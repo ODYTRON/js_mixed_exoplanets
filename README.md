@@ -1,10 +1,17 @@
 * randnum.js
+
 *** This program is made for the Fullstack engineer path of codecademy
-** The randnum.js  is a program that it takes two names and two ages and returns the following in a single line format :
+
+** The randnum.js  is a program that it takes two names and two ages and returns the following in a 
+
+single line format :
+
 0. A greeting 
 1. A hex color.
 2. A lucky number.
 3. An exoplanet.
+
+
 *** 1. The hex color is the combination of two hex colors. if the first random color has same characters with the second, these characters are remain intact. If the first color has different characters with the second, these diffrent characters are replaced with random characters and the first color is returned modified according to these changes.
 *** 2. The lucky number is resulting from the sum of two inserted ages divided with a random number between 1 and 1000  (randomnumber / sumage)
 *** 3. The exoplanet is a random exoplanet from an array of aprox 400 exoplanets
